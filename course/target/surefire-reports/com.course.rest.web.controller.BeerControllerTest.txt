@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.course.rest.web.controller.BeerControllerTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 3.253 s <<< FAILURE! - in com.course.rest.web.controller.BeerControllerTest
+saveBeer  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'beerController' defined in file [C:\Users\michal.nowak\Desktop\Git\SpringBootCourse\course\target\classes\com\course\rest\web\controller\BeerController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.course.rest.services.BeerService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.course.rest.services.BeerService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+
+handleUpdate  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'beerController' defined in file [C:\Users\michal.nowak\Desktop\Git\SpringBootCourse\course\target\classes\com\course\rest\web\controller\BeerController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.course.rest.services.BeerService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.course.rest.services.BeerService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+
+getBeer  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'beerController' defined in file [C:\Users\michal.nowak\Desktop\Git\SpringBootCourse\course\target\classes\com\course\rest\web\controller\BeerController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.course.rest.services.BeerService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.course.rest.services.BeerService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+
+deleteBeer  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'beerController' defined in file [C:\Users\michal.nowak\Desktop\Git\SpringBootCourse\course\target\classes\com\course\rest\web\controller\BeerController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.course.rest.services.BeerService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.course.rest.services.BeerService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+

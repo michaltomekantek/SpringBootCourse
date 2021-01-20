@@ -35,7 +35,7 @@ public class BeerController {
     }
 
     @PostMapping
-    public ResponseEntity handlePost(@RequestBody BeerDTO beerDTO){
+    public ResponseEntity saveBeer(@RequestBody BeerDTO beerDTO){
         BeerDTO savedBeer =  beerService.saveBeer(beerDTO);
         HttpHeaders header = new HttpHeaders();
         header.add("Location", "/api/v1/beer" + savedBeer.getId().toString());
@@ -54,4 +54,6 @@ public class BeerController {
         beerService.deleteBeer(beerId);
 
     }
+
+
 }
